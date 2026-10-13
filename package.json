@@ -5,8 +5,7 @@
   "main": "dist/script.js",
   "types": "dist/script.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "repository": {
     "url": "https://github.com/presidentialsoftware/htmel",
