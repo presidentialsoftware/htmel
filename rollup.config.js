@@ -3,7 +3,7 @@ const { dts } = require("rollup-plugin-dts");
 
 module.exports = [
   {
-    input: "src/index.ts", // Entry point, adjust as needed
+    input: "dist/index.js", // Entry point, adjust as needed
     output: {
       file: "dist/script.js", // Output file name and path
       format: "es", // Adjust the output format as needed (e.g., 'es', 'umd', 'cjs')

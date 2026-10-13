@@ -1,7 +1,7 @@
 // src/index.ts
-export { default as Component } from "src/component";
-export { default as Prop, Props } from "src/prop";
-export { default as State } from "src/state";
-export { default as JSX } from "src/jsx";
-export { WebServer, Route, Middleware, ParseBody } from "src/server";
-export { useState } from "src/hooks";
+export { default as Component } from "./component";
+export { default as Prop, Props } from "./prop";
+export { default as State } from "./state";
+export { default as JSX } from "./jsx";
+export { WebServer, Route, Middleware, ParseBody } from "./server";
+export { useState } from "./hooks";
