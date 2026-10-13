@@ -17,8 +17,7 @@
     "package": "npx rollup --config rollup.config.js",
     "unpackage": "rm -r dist",
     "build": "npm run compile && npm run package",
-    "publish": "npm publish -access-public",
-    "prepare": "npm run build"
+    "publish": "npm publish -access-public"
   },
   "author": "Ashton Morris",
   "license": "MIT",
